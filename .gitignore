@@ -1,0 +1,28 @@
+bankingg_dbt/profiles.yml
+# GitHub Actions cache
+/.github/.cache
+
+# Docker cache
+docker/logs/
+docker/minio/
+docker/plugins/
+docker/postgres/
+
+# DBT cache
+bankingg_dbt/.dbt/
+bankingg_dbt/analyses/
+bankingg_dbt/logs/
+bankingg_dbt/macros/
+bankingg_dbt/seeds/
+bankingg_dbt/target/
+bankingg_dbt/tests/
+
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+docker-compose.override.yml
+logs/
+.venv/
