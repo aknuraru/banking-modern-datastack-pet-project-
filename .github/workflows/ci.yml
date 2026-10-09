@@ -52,7 +52,7 @@ jobs:
       - name: Setup dbt profile
         run: |
           mkdir -p ~/.dbt
-          cat > ~/.dbt/profiles.yml <<EOL
+          cat > ~/.dbt/profiles.yml <<'EOL'
           bankingg_dbt:
             target: dev
             outputs:
