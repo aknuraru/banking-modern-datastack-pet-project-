@@ -38,7 +38,7 @@ jobs:
         run: |
           mkdir -p ~/.dbt
           cat > ~/.dbt/profiles.yml <<EOL
-          banking_dbt:
+          bankingg_dbt:
             target: prod
             outputs:
               prod:
@@ -57,7 +57,7 @@ jobs:
       # ------------------------
       - name: dbt run + test (prod)
         run: |
-          cd banking_dbt
+          cd bankingg_dbt
           dbt deps
           dbt run    # builds production models on Snowflake
           dbt test   # validates production data

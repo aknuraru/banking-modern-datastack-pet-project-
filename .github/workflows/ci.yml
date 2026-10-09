@@ -53,7 +53,7 @@ jobs:
         run: |
           mkdir -p ~/.dbt
           cat > ~/.dbt/profiles.yml <<EOL
-          banking_dbt:
+          bankingg_dbt:
             target: dev
             outputs:
               dev:
