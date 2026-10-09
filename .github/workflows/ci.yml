@@ -69,6 +69,6 @@ jobs:
 
       - name: dbt compile (validation)
         run: |
-          cd banking_dbt
+          cd bankingg_dbt
           dbt deps
           dbt compile
